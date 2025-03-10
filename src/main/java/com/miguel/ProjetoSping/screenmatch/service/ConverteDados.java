@@ -2,7 +2,6 @@ package com.miguel.ProjetoSping.screenmatch.service;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.miguel.ProjetoSping.screenmatch.model.DadosSerie;
 
 public class ConverteDados implements IConverteDados {
     private ObjectMapper mapper = new ObjectMapper();
